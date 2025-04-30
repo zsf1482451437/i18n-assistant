@@ -28,8 +28,4 @@
 完成以上步骤后，9 种语言的翻译将自动写入对应文件，一键完成，高效便捷。
 
 演示视频：
-<video width="640" height="360" controls>
-
-  <source src="./media/演示.mp4" type="video/mp4">
-  您的浏览器不支持视频标签
-</video>
+[观看演示视频](./media/演示.mp4)
