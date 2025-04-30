@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "i18nexus Translator Exporter",
+  "version": "1.0",
+  "description": "从i18nexus页面提取并发送翻译到本地服务器",
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "host_permissions": [
+    "https://*.i18nexus.com/*",
+    "https://app.i18nexus.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://app.i18nexus.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
