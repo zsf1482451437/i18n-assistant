@@ -27,5 +27,4 @@
 
 完成以上步骤后，9 种语言的翻译将自动写入对应文件，一键完成，高效便捷。
 
-演示视频：
-![演示](./media/演示.gif)
+![演示](https://github.com/zsf1482451437/i18n-assistant/blob/master/media/%E6%BC%94%E7%A4%BA.gif)
